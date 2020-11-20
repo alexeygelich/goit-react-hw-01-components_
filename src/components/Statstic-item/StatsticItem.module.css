@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 5);
+  height: 80px;
+}
+
+.label {
+  margin-bottom: 8px;
+}

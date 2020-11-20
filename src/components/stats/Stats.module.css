@@ -1,0 +1,25 @@
+.stats {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 3);
+  height: 100px;
+  background-color: #aaa8a8a2;
+  border: 1px solid;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.quantity {
+  font-weight: 700;
+}

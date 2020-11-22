@@ -1,3 +1,6 @@
+@value variables: "./variables.module.css";
+@value color-green, color-red from variables;
+
 .item {
   display: flex;
   align-items: center;
@@ -8,7 +11,8 @@
   height: 100px;
   border: 0;
   background-color: #fff;
-  box-shadow: -1px 0px rgb(49, 49, 48), -1px 1px rgb(87, 87, 86), -2px 1px rgb(94, 93, 93), -2px 2px rgb(75, 75, 74);
+  box-shadow: -1px 0px rgb(49, 49, 48), -1px 1px rgb(87, 87, 86),
+    -2px 1px rgb(94, 93, 93), -2px 2px rgb(75, 75, 74);
 }
 
 .avatar {
@@ -27,10 +31,10 @@
 
 .green {
   composes: status;
-  background-color: green;
+  background-color: color-green;
 }
 
 .red {
   composes: status;
-  background-color: red;
+  background-color: color-red;
 }

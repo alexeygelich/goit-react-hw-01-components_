@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import FriendItem from '../FriendItem/FriendItem'
+import FriendItem from './FriendItem'
 import styles from './FriendList.module.css'
 
 const FriendList = ({ friends }) => (
